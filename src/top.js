@@ -1,5 +1,7 @@
 import React from "react";
 import './top.css';
+import {BsMoon} from "react-icons/bs";
+
 
 const top =() => {
   return (
@@ -8,7 +10,8 @@ const top =() => {
         <h2>Where in the world?</h2>
         </div>
       <div> 
-        <i></i> <p>Dark mode</p>
+        
+         <p> <i><BsMoon/></i> Dark mode</p>
       </div>
     </div>
   )
