@@ -24,21 +24,22 @@
   border: none;
   padding: 7px;
 }
+
 .dropdown{
   width: 200px;
   height: 46px;
-  display: flex;
-  align-items: center;
   background: #FFFFFF;
   margin-right: 10%;
   border-radius: 5px;
 }
+
 .select {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
- 
+  margin-top: 15px;
 }
+
 .caret {
   width: 0;
   height: 0;
@@ -56,8 +57,14 @@
   top: 24%;
   right: 10%;
   border-radius: 5px;
+  opacity: 1;
 }
-li{
+.close {
+  opacity: 0;
+}
+
+
+li {
   padding-left: 15%;
   line-height: 30px;
 }
