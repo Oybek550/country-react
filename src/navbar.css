@@ -68,3 +68,10 @@ li {
   padding-left: 15%;
   line-height: 30px;
 }
+ a{
+  text-decoration: none;  
+  color: #111517;
+}
+li:hover{
+  background-color:beige;
+}

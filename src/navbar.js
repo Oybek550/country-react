@@ -20,11 +20,12 @@ const Navbar = () => {
     </div>
  
  <ul className={open ? "menu" : "close"}>
-    <li><a>Africa</a></li>
-    <li><a>America</a></li>
-    <li><a>Asia</a></li>
-    <li><a>Europe</a></li>
-    <li><a>Oceania</a></li>
+    <li><a href=''>Africa</a></li>
+    <li><a href=''>America</a></li>
+    <li><a href=''>Europa</a></li>
+    <li><a href=''>Osia</a></li>
+    <li><a href=''>Oceania</a></li>
+    
   </ul>
 
  
