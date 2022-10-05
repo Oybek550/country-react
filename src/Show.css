@@ -1,0 +1,21 @@
+.opencountry {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  background: #fff;
+}
+.opencountry img {
+  width: 559px;
+  height: 433px;
+}
+
+.text {
+ line-height: 30px;
+ 
+}
+.tex {
+  padding-bottom: 210px
+}
+.bcoutries {
+  padding-top: 50%;
+}
