@@ -12,7 +12,7 @@ useEffect(() => {
     const response = await fetch(`https://restcountries.com/v2/name/${parametr}`) 
     const data = await response.json()
     setNames(data)
-    console.log(names);
+
  }
   getname()
 },[])

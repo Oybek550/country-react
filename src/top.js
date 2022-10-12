@@ -1,19 +1,23 @@
 
 import './top.css';
-import {BsMoon} from "react-icons/bs";
+
 import { Link } from "react-router-dom";
+import {useState } from 'react';
 
 
-const Top =() => {
+const Top =(props) => {
+ 
+
   return (
-    <div className="main">
+
+    <div className={props.dark ?"main" :"dark"}>
       <div >
         <h2>Where in the world?</h2>
 
         </div>
       <div> 
         
-         <p> <i><BsMoon/></i> Dark mode</p>
+         <p> <i>{props.moon}</i>Dark mode</p>
       </div>
     </div>
   )

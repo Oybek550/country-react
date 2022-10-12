@@ -11,9 +11,19 @@ padding: 0 70px 0 50px ;
 background-color:#FFFFFF;
 box-shadow: 0 2px rgba(0, 0, 0, 0.0562443);
 }
+.dark{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+color: white;
+padding: 0 70px 0 50px ;
+background-color:#2B3844;
+box-shadow: 0 2px rgba(0, 0, 0, 0.0562443);
+}
 p {
 font-weight: 600;
 }
-i{
- margin-right: 10px;
+ i{
+ margin-right: 5px;
 }

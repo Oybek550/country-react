@@ -5,15 +5,20 @@ import Country from './country';
 import Navbar from './navbar';
 import './App.css'
 import Region from './region';
+import { useState } from 'react';
+import {BsMoon} from "react-icons/bs";
+
+
 
 function App() {
-
-  
+  const [dark,setDark] = useState(true)
+  const moon = <i className='moon' onClick={()=>setDark(!dark)}>< BsMoon/></i>
   return (
-<div className='container'>
+<div className={dark?'container':'container-dark'}>
+ 
    <BrowserRouter>
-<Top/>
-<Navbar />
+<Top dark={dark} moon={moon}/>
+<Navbar dark={dark}/>
  
  <Routes>
   
